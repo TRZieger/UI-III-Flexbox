@@ -227,18 +227,19 @@ h5 {
 }
 
 header {
+	
 	width: 100%;
-	padding: 10px 20px 60px 20px;
+	padding: 10px 20px 0px 20px;
 	text-align: center;
-	border-bottom: 1px solid #000;
+	
 	padding-top: 60px;
 }
 
 header nav {
-	position: fixed;
+	display: flex;
+	display: ;
 	top: 0;
 	left: 0;
-	background: linear-gradient(#eee, #ccc);
 	width: 100%;
 	z-index: 1;
 	border-bottom: 1px solid #ccc;
@@ -254,7 +255,6 @@ nav:hover {
 }
 
 header nav a {
-	display: inline-block;
 	color: #888;
 	text-decoration: none;
 	font-weight: 400;
@@ -269,12 +269,11 @@ nav a:hover {
 }
 
 .logo {
-	display: inline-block;
 	background: url("https://i.imgur.com/RoKbjZH.png");
 	width: 183px;
 	height: 36px;
 	margin-left: 100px;
-	vertical-align: middle;
+	
 }
 
 header .iov {
@@ -314,6 +313,7 @@ header .iov {
 .top-section {
 	padding: 40px 0;
 	font-size: 18px;
+	display: flex;
 }
 
 .top-section div {
@@ -338,13 +338,14 @@ header .iov {
 }
 
 .bottom-section {
+	display: flex;
 	padding: 40px 0;
 	font-size: 18px;
 	border-bottom: 1px solid black;
 }
 
 .bottom-section div {
-	display: inline-block;
+]
 	width: 330px;
 	margin: 0 auto;
 	margin-right: 10px;
@@ -365,4 +366,61 @@ footer {
 
 footer h6 {
 	text-align: center;
+}
+
+   .body { 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+   }
+.body-div {
+	width: 40%;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 20px;
+  background-color: rgb(240, 236, 239);
+	
+	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+
+	height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.button2 {
+	display: block;
+	width: 140px;
+	height: 30px;
+	font-size: 20px;
+	border: 1px solid black;
+	padding: 5px 20px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: white;
+	
+
+}
+
+.servicediv {
+	width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-bottom: 30px;
+  margin: 20px;
+ 
+	
+	
+	font-size: 100%;
+	font: inherit;
+	
+
+
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
+	border-bottom: 1px solid #000;
+	
 }
